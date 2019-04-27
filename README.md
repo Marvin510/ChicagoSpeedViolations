@@ -13,7 +13,7 @@ I will evaluate both versions based on the following criteria:
 ### Visualizations
 
 1-
-
+![Viz1](https://github.com/Marvin510/ChicagoSpeedViolations/blob/master/Images/Overpolicing.png)
 
 2-
 
