@@ -29,6 +29,8 @@ I am exploring the city of Chicago data and I am realizing that perhaps I should
 
 4- Found that the city of Chicago is divided into 50 wards, each with 1 representative. Out of the 50 there is one not controlled by democrats or Republicans and it is the one with the highest vioaoations.
 
+5 - Found that empoverish areas are more overpoliced. as expected
+
 ### Future enhancements
 
 
