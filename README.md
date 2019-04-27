@@ -1,24 +1,21 @@
 # Marvin Miranda Olmedo
 # Chicago Speed Violations - Individual Project
-3 Aspect:  interesting, non-trivial, and somewhat unexpected 
-
-The first version of your individual project documents your first attempt of a dashboard. The first version should:
+### 3 Aspect:  interesting, non-trivial, and somewhat unexpected 
 
 Visualize three aspects of the data in an interesting, non-trivial, and somewhat unexpected fashion to the mayor of Chicago.
 Document the “Making-of” (Details of your development process, data wrangling steps, your reasoning, detours, literature, etc.)
 Road-map with future features/enhancements.
 You will submit a github repo that includes links to a Tableau Public Project.
 
-I will evaluate both versions based on the following criteria:
 ### Visualizations
 
-1-
+1- Overpolicing of Poor Areas
 ![Viz1](https://github.com/Marvin510/ChicagoSpeedViolations/blob/master/Images/Overpolicing.png)
 
 2-
 
 
-3-
+3-Only Ward control by an Idenpendent has the highest Violations
 
 
 ### The making process:
