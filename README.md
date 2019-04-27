@@ -12,10 +12,13 @@ You will submit a github repo that includes links to a Tableau Public Project.
 1- Overpolicing of Poor Areas
 ![Viz1](https://github.com/Marvin510/ChicagoSpeedViolations/blob/master/Images/Overpolicing.png)
 
+
 2-
 
 
-3-Only Ward control by an Idenpendent has the highest Violations
+3- Ward control by an Idenpendent has the highest Violations
+
+![Viz3](https://github.com/Marvin510/ChicagoSpeedViolations/blob/master/Images/Independent.png)
 
 
 ### The making process:
