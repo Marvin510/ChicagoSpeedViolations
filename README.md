@@ -65,20 +65,20 @@ There are more cameras in poorer areas than in rich areas. Specifically if Hards
 
 # The making process of visualization #2
 
-## The city of Chicago is divided into 50 wards. Each Ward has 1 representative. There is 1 Ward controlled by an Independent.
-## The Ward with the only Independent Representative has the highest amount of Violations.
+## The city of Chicago is divided into 50 wards. Each ward has 1 representative. There is 1 ward that is not controlled by a Republican or Democrat. This ward is controlled by an Independent. 
+## The ward with the only Independent Representative has the highest amount of violations.
 
 While researching the zip code issue from the original data set I came to realize that I did not understand the meaning of the Wards. 
 
 I turned to Wikipedia and found data on wards and how each has a political representative. ("Chicago City Council", 2019)
 
-Quickly realized that the City of Chicago has a democratic majority and it would be interesting to see if Wards ran by other parties differed from democrats.
+Quickly realized that the City of Chicago has a democratic majority. I thought it would be interesting to see if wards ran by other parties differed from democrats in number of violations.
 
-At first, I plotted zip codes which required me to download another Data set called Ward Offices. ("Ward Offices | City of Chicago | Data Portal")
+At first, I plotted zip codes which required me to download another data set called Ward Offices. ("Ward Offices | City of Chicago | Data Portal")
 
-I had to split column location to create Longitude and Latitudes.
+I had to split column location to create longitude and latitudes.
 
-I then created a map of violations by zip code and party.
+I then created a map of violations by zip code and political party. I color coded the zip codes by number of violations. The darker the color the higher the violations.
 
 From this image, I couldn’t  make any clear statements about violations and parties.
 
@@ -103,6 +103,7 @@ I thought this was a very intersting finding that does not imply or claim anythi
 
 
 # The making process of visualization #3
+### Keeping in mind that school is in session Monday through Friday, weekends should have less violations. Which is the opposite of what is truly happening.
 
 In the data exploration process, I designed a visualization that showed Friday as the day with more violations. I received criticism and thus decided to build on that mistake. Perhaps, explore if this visualization could lead to an interesting finding.
 
@@ -114,7 +115,7 @@ From feedback received, I wanted to explore different ways to properly show this
 
 After analyzing weekdays and years, I decided to add weekends and realized that on average Friday is not the day with more violations.
 
-This is an intersting finding considering the fact that I had originally in the data exploration process claimed Friday had the highest amount.
+This is an intersting finding considering the fact that school is only in session during weekdays.
 
 ![FinalPic3](https://github.com/Marvin510/ChicagoSpeedViolations/blob/master/Images/FinalPic%233.png "Visualization#3")
 
