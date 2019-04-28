@@ -2,35 +2,35 @@
 
 # The making process of visualization# 1
 
-## There are more cameras in poorer areas than in rich areas. Specifically if Hardship Index is above 70.
+## There are more cameras in empoverish areas. Specifically if Hardship Index is above 70.
 
 
-While doing the data exploration assignment, I questioned the skewness of some cameras. For example, Camera ID 149 had by far the most violations. I found it interesting and thought it deserved a deeper analysis and understanding. 
+While doing the data exploration assignment, I questioned the skewness of some cameras.
+
+For example, Camera ID 149 had by far the most violations. I found it interesting and thought it deserved a deeper analysis and understanding. 
 
 ![Pic1](https://github.com/Marvin510/ChicagoSpeedViolations/blob/master/Images/Pic1.png "Skewdata")
 
 
-I ambition an image that would be eye opening to what I thought could be a mysterious issue.
-
 At first, I couldn’t visualize it but the more I thought about the amount of violations and how some cameras had a higher amount made me wonder whether or not cameras were placed as the website claims around 1/8 of a mile from schools and parks. ("Children's Safety Zone Program & Automated Speed Enforcement")
 
-The original dataset presented the following limitations:
+I looked into zip codes and realized theoriginal dataset presented the following limitations:
 -	Zip codes were wrong
 - Community areas and wards didn’t have a meaning
 
 At first I tried to solve the zip code issue by exploring other data sets and I came across the socio economics issue Data set from the city of Chicago. ("Census Data - Selected socioeconomic indicators in Chicago, 2008 – 2012 | City of Chicago | Data Portal")
 
-This data set provided a column called Hardship Index, which collects socioeconomic indicators of the residents of Chicago.
+This data set provided a column called Hardship Index, which collects socioeconomic indicators of the residents of Chicago. This Index assigns areas with more poverty a higher ranking.
 
-I then realize that I could start by discarding the over policing of poor communities.
+I then realize that I could start exploring any differences between empoverish and rich areas.
 
-- In Visualization number one, I would attempt to find if there are more cameras in lower income zip codes across chicago and thus skewed the results of violations.
+Visualization number one would attempt to find if there are more cameras in lower income zip codes across chicago and thus skewed the results of violations.
 
 I plotted count of cameras to hardship index and the first graph did not show obvious bias.
 
 ![Pic2](https://github.com/Marvin510/ChicagoSpeedViolations/blob/master/Images/Pic2.png "Countofcameras")
 
-I also tried to graph a linear graph to see if there was an increment of cameras as Harship increased. In this image, there was improvement yet there was alot of missing values that I couldn't present.
+I also tried to graph a linear graph to see if there was an increment of cameras as Harship increased. In this image, there was improvement yet there was alot of missing values.
 
 ![Pic2.2](https://github.com/Marvin510/ChicagoSpeedViolations/blob/master/Images/Pic2.2.png "Lines")
 
@@ -40,6 +40,7 @@ I then created a calculated field that assigned any Hardship index above 50 to P
 
 Finally, I decided to bin the Hardship Index in size bins of 10 and this is where I found a straight answer to my question.
 
+
 There are more cameras in poorer areas than in rich areas. Specifically if Hardship Index is above 70.
 
 
@@ -47,16 +48,13 @@ There are more cameras in poorer areas than in rich areas. Specifically if Hards
 
 ### Future enhancements
 
-A future enhancement to this visualization would be to optain school locations to prove or disprove that cameras have been installed 1/8 of mile from schools as the City of Chicago Claims.
-
-
+- A future enhancement to this visualization would be to optain school locations to prove or disprove that cameras have been installed 1/8 of mile from schools as the City of Chicago Claims.
+- Consider other socio economic factors that may be affecting the location of cameras
 
 
 ### The making process of visualization #2
 
-- The Ward with the only Independent Representative has the highest amount of Violation. The City of Chicago has 48 Wards filled by Democrats, 1 by a republican and 1 by an Independent.
-
-4- Found that the city of Chicago is divided into 50 wards, each with 1 representative. Out of the 50 there is one not controlled by democrats or Republicans and it is the one with the highest vioaoations.
+- The city of Chicago is divided into 50 wards, each with 1 representative. Out of the 50 there is one not controlled by democrats or Republicans and it is the one with the highest violations. The Ward with the only Independent Representative has the highest amount of Violations.
 
 While researching the zip code issue from the original data set I came to realize that I did not understant the meaning of the wards. 
 
@@ -64,7 +62,7 @@ I turned to Wikipedia and found data on wards and how each has a political repre
 
 Quickly realize that the City of Chicago has a democratic majority and thought it would be interesting to see if Wards ran by other parties differed from democrats.
 
-At first, I plotted zip codes which  required me to download another Data set called Ward Offices. ("Ward Offices | City of Chicago | Data Portal")
+At first, I plotted zip codes which required me to download another Data set called Ward Offices. ("Ward Offices | City of Chicago | Data Portal")
 
 I had to split location to create Longitude and Latitudes. I then created a map of violations by zip code and party. From this image, I could't make any statements about violations and parties.
 
@@ -72,38 +70,41 @@ I had to split location to create Longitude and Latitudes. I then created a map 
 ![Pic4](https://github.com/Marvin510/ChicagoSpeedViolations/blob/master/Images/Pic4.png "zip code")
 
 
-I then proceeded to think of Wards rather than zip codes and created a visualization that showed violations by Wards. Here is where, I found my intersting finding. There is only 2 Wards not controlled by Democrats, one of them is an Independent and the other is a Republican. The Ward with the highest amount of vioalations is represented an Independent.
+I then proceeded to think of Wards rather than zip codes and created a visualization that showed violations by Wards.
+
+Here is where I found my intersting finding; there are only 2 Wards not controlled by Democrats, one of them is an Independent and the other is a Republican. The Ward with the highest amount of vioalations is represented by an Independent.
 
 I thought this was a very intersting finding that does not imply or claim anything but is something I was not expecting.
 
 ![FinalPic2](https://github.com/Marvin510/ChicagoSpeedViolations/blob/master/Images/FinalPic%232.png "Visualization#2")
 
 ### Future enhancements
-
+ - I would like to explore demographics of this Ward
+ - I would like to see if this Ward differs from others on socio economic factors
+ 
 
 
 ### The making process of visualization #3
 
 
 
-### Future enhancements
-
 
 ### The making process summary
 
 
-I had to retrieve information from multiple sources, combined all into a spreadsheet and then I had a hard time mapping and joining the tables. 
+- I had to retrieve information from multiple sources, combined all into a spreadsheet and then I had a hard time mapping and joining the tables. 
 
-I had to physically draw the attributes I needed to analyze if joining the different data sets was feasible.
+- I had to physically draw the attributes I needed to analyze if joining the different data sets was feasible.
 
 ![joins](https://github.com/Marvin510/ChicagoSpeedViolations/blob/master/Images/Joins.png "joins")
 
+- Created bins for Harship Index
+
+- I also had to create calculated fields such as bins 
+
+- Created IF statements to categorize rich or poor in the column called Harship Index.
 
 ###
-
-2- For visualization number two, I will try to find a correlation of income to violations. I will search for zip codes that differ in income and find how they differ in violations
-
-
 
 
 #References
