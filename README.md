@@ -50,6 +50,8 @@ A future enhancement to this visualization would be to optain school locations t
 
 ### The making process of visualization #2
 
+- The Ward with the highest amount of Violation has an Independent Representative. City of Chicago has 48 Wards filled by Democrats, 1 by a republican and 1 by an Independent.
+
 While researching the zip code issue from the original data set I came to realize that I did not understant the meaning of the wards. 
 
 I turned to Wikipedia and found data on wards and how each has a political representative.("Chicago City Council", 2019)
