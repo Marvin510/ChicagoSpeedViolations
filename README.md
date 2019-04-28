@@ -2,7 +2,7 @@
 
 # The making process of visualization# 1
 
-## There are more cameras in Impoverish areas. Specifically, if Hardship Index is above 70.
+## There are more cameras in impoverish areas. Specifically, if Hardship Index is above 70.
 
 
 While doing the data exploration assignment, I questioned the skewness of some cameras.
