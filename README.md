@@ -1,8 +1,9 @@
 # Marvin Miranda Olmedo - Chicago Speed Violations 
 
-## The making process of visualization# 1
+# The making process of visualization# 1
 
-- There are more cameras in poorer areas than in rich areas. Specifically if Hardship Index is above 70.
+## There are more cameras in poorer areas than in rich areas. Specifically if Hardship Index is above 70.
+
 
 While doing the data exploration assignment, I questioned the skewness of some cameras. For example, Camera ID 149 had by far the most violations. I found it interesting and thought it deserved a deeper analysis and understanding. 
 
@@ -23,6 +24,8 @@ This data set provided a column called Hardship Index, which collects socioecono
 
 I then realize that I could start by discarding the over policing of poor communities.
 
+- In Visualization number one, I would attempt to find if there are more cameras in lower income zip codes across chicago and thus skewed the results of violations.
+
 I plotted count of cameras to hardship index and the first graph did not show obvious bias.
 
 ![Pic2](https://github.com/Marvin510/ChicagoSpeedViolations/blob/master/Images/Pic2.png "Countofcameras")
@@ -42,6 +45,7 @@ There are more cameras in poorer areas than in rich areas. Specifically if Hards
 
 ![FinalPic#1](https://github.com/Marvin510/ChicagoSpeedViolations/blob/master/Images/FinalPic%231.png "Visualization#1")
 
+### Future enhancements
 
 A future enhancement to this visualization would be to optain school locations to prove or disprove that cameras have been installed 1/8 of mile from schools as the City of Chicago Claims.
 
@@ -50,7 +54,9 @@ A future enhancement to this visualization would be to optain school locations t
 
 ### The making process of visualization #2
 
-- The Ward with the highest amount of Violation has an Independent Representative. City of Chicago has 48 Wards filled by Democrats, 1 by a republican and 1 by an Independent.
+- The Ward with the only Independent Representative has the highest amount of Violation. The City of Chicago has 48 Wards filled by Democrats, 1 by a republican and 1 by an Independent.
+
+4- Found that the city of Chicago is divided into 50 wards, each with 1 representative. Out of the 50 there is one not controlled by democrats or Republicans and it is the one with the highest vioaoations.
 
 While researching the zip code issue from the original data set I came to realize that I did not understant the meaning of the wards. 
 
@@ -72,54 +78,31 @@ I thought this was a very intersting finding that does not imply or claim anythi
 
 ![FinalPic2](https://github.com/Marvin510/ChicagoSpeedViolations/blob/master/Images/FinalPic%232.png "Visualization#2")
 
+### Future enhancements
 
 
 
-
-Had to retrieve information from multiple sources, combined all into a spreadsheet and then I had a hard time mapping and joining the tables. I had to physically draw the attributes I needed.
-
-I tried to optain data to prove my point but ended up finding an interesting fact. that the city ward with the only independent representative has the highest violations.
-
-I am exploring the city of Chicago data and I am realizing that perhaps I should have researched what data was available to make a decision on what to dive into.
-
-1- In Visualization number one, I will attempt to find if there are more cameras in lower income zip codes across chicago.
- 
-### T
- 
-
-2- For visualization number two, I will try to find a correlation of income to violations. I will search for zip codes that differ in income and find how they differ in violations
-
-3- Visualization number three, I will try to prove that cameras were located in poverty areas and therefore skewed the results of violations
-
-4- Found that the city of Chicago is divided into 50 wards, each with 1 representative. Out of the 50 there is one not controlled by democrats or Republicans and it is the one with the highest vioaoations.
-
-5 - Found that empoverish areas are more overpoliced. as expected
-
-
-
-
-
-
-### Visualizations
-
-1- Overpolicing of Poor Areas
-![Viz1](https://github.com/Marvin510/ChicagoSpeedViolations/blob/master/Images/Overpolicing.png)
-
-
-2-
-
-
-3- Ward control by an Idenpendent has the highest Violations
-
-![Viz3](https://github.com/Marvin510/ChicagoSpeedViolations/blob/master/Images/Independent.png)
-
+### The making process of visualization #3
 
 
 
 ### Future enhancements
 
 
-### Conclusion
+### The making process summary
+
+
+I had to retrieve information from multiple sources, combined all into a spreadsheet and then I had a hard time mapping and joining the tables. 
+
+I had to physically draw the attributes I needed to analyze if joining the different data sets was feasible.
+
+![joins](https://github.com/Marvin510/ChicagoSpeedViolations/blob/master/Images/Joins.png "joins")
+
+
+###
+
+2- For visualization number two, I will try to find a correlation of income to violations. I will search for zip codes that differ in income and find how they differ in violations
+
 
 
 
