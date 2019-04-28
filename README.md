@@ -1,5 +1,5 @@
 # Marvin Miranda Olmedo - Chicago Speed Violations 
-
+# https://public.tableau.com/profile/marvin.olmedo#!/vizhome/4_28_19/Dashboard1
 # The making process of visualization# 1
 
 ## There are more cameras in impoverish areas. Specifically, if Hardship Index is above 70.
