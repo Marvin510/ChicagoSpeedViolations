@@ -1,5 +1,7 @@
 # Marvin Miranda Olmedo - Chicago Speed Violations 
-# https://public.tableau.com/profile/marvin.olmedo#!/vizhome/4_28_19/Dashboard1
+
+https://public.tableau.com/profile/marvin.olmedo#!/vizhome/4_28_19/Dashboard1
+
 # The making process of visualization# 1
 
 ## There are more cameras in impoverish areas. Specifically, if Hardship Index is above 70.
@@ -12,19 +14,21 @@ For example, Camera ID 149 had by far the most violations. I found it interestin
 ![Pic1](https://github.com/Marvin510/ChicagoSpeedViolations/blob/master/Images/Pic1.png "Skewdata")
 
 
-At first, I couldn’t visualize it but the more I thought about the amount of violations and how some cameras had a higher amount, made me wonder whether or not cameras were placed as the website claims around 1/8 of a mile from schools and parks. ("Children's Safety Zone Program & Automated Speed Enforcement")
+At first, I couldn’t make any assertions about why some areas and cameras had disproportionately higer amount of violations. However, I felt the City of Chicago website did not provide enough information to justify their claim that cameras were installed around 1/8 of a mile from schools and parks. ("Children's Safety Zone Program & Automated Speed Enforcement")
 
-I investigated zip codes and realized that the original dataset presented the following limitations:
+Because of this, I suspected the skewness was due to the location of the cameras. This would I believed lead me to an interesting finding.
+
+I started by investigating zip codes and realized that the original dataset presented the following limitations:
 -	Zip codes were wrong
-- Community areas and wards didn’t have a meaning
+- Community areas and wards did not provide obvious insights
 
-At first, I tried to solve the zip code issue by exploring other data sets and I came across the Socio Economics Issue Data set from the City of Chicago. ("Census Data - Selected socioeconomic indicators in Chicago, 2008 – 2012 | City of Chicago | Data Portal")
+I tackled the the zip code issue by exploring other data sets and I came across the Socio Economics Issue Data set from the City of Chicago. ("Census Data - Selected socioeconomic indicators in Chicago, 2008 – 2012 | City of Chicago | Data Portal")
 
 This data set provided a column called Hardship Index, which collects socioeconomic indicators of the residents of Chicago.
 
-This Index assigns areas with more poverty a higher ranking.
+This Index assigns areas with more poverty a higher ranking and vice versa.
 
-I then realize that I could start exploring any differences between impoverish and rich areas.
+I suspected at this point that location of cameras could be driven by economic issues and thus decided to explore differences betweent impoverish and rich areas.
 
 Visualization number one would attempt to find if there are more cameras in lower income zip codes across Chicago and thus skewed the results of violations.
 
@@ -59,13 +63,14 @@ There are more cameras in poorer areas than in rich areas. Specifically if Hards
 
 # The making process of visualization #2
 
-## The city of Chicago is divided into 50 wards, each with 1 representative. Out of the 50 there is one not controlled by democrats or Republicans and it is the one with the highest violations. The Ward with the only Independent Representative has the highest amount of Violations.
+## The city of Chicago is divided into 50 wards, each with 1 representative. Out of the 50 there is one not controlled by democrats or Republicans and it is the one with the highest violations. 
+## The Ward with the only Independent Representative has the highest amount of Violations.
 
 While researching the zip code issue from the original data set I came to realize that I did not understand the meaning of the Wards. 
 
 I turned to Wikipedia and found data on wards and how each has a political representative. ("Chicago City Council", 2019)
 
-Quickly realize that the City of Chicago has a democratic majority and it would be interesting to see if Wards ran by other parties differed from democrats.
+Quickly realized that the City of Chicago has a democratic majority and it would be interesting to see if Wards ran by other parties differed from democrats.
 
 At first, I plotted zip codes which required me to download another Data set called Ward Offices. ("Ward Offices | City of Chicago | Data Portal")
 
@@ -81,9 +86,9 @@ From this image, I couldn’t  make any clear statements about violations and pa
 
 I then proceeded to think of Wards rather than zip codes and created a visualization that showed violations by Wards.
 
-Here is where I found my interesting  finding; there are only 2 Wards not controlled by Democrats, one of them is an Independent and the other is a Republican. 
+Here is where I found my interesting finding; there are only 2 Wards not controlled by Democrats, one of them is an Independent and the other is a Republican. 
 
-The Ward with the highest amount of violations  is represented by an Independent.
+The Ward with the highest amount of violations is represented by an Independent.
 
 I thought this was a very intersting finding that does not imply or claim anything but is something I was not expecting.
 
@@ -97,19 +102,19 @@ I thought this was a very intersting finding that does not imply or claim anythi
 
 # The making process of visualization #3
 
-In the data exploration process, I designed a visualization that showed Friday as the day with more violations. I received criticism and thus decided to build on that mistake. Perhaps, explore if it could lead to an intersting finding.
+In the data exploration process, I designed a visualization that showed Friday as the day with more violations. I received criticism and thus decided to build on that mistake. Perhaps, explore if this visualization could lead to an interesting finding.
 
 Picture
 ![Friday](https://github.com/Marvin510/ChicagoSpeedViolations/blob/master/Images/Pic5.png "Friday")
 
-From feedback received, I wanted to explore different ways to properly show this information.  I now decided to explore changes through out the years.
+From feedback received, I wanted to explore different ways to properly show this information.  I decided to explore changes through out the years instead of day. 
 
 Picture
 ![Pic6](https://github.com/Marvin510/ChicagoSpeedViolations/blob/master/Images/Pic6.png "Years")
 
-I then added weekends and realized that on average Friday is not the day with more violations but the weeekends.
+After analyzing weekdays and years, I decided to add weekends and realized that on average Friday is not the day with more violations.
 
-Which is an intersting finding considering the fact that I had originally in the data exploration process claimed Friday had the highest amount.
+Thi is an intersting finding considering the fact that I had originally in the data exploration process claimed Friday had the highest amount.
 
 ![FinalPic3](https://github.com/Marvin510/ChicagoSpeedViolations/blob/master/Images/FinalPic%233.png "Visualization#3")
 
