@@ -22,7 +22,7 @@ I started by investigating zip codes and realized that the original dataset pres
 -	Zip codes were wrong
 - Community areas and wards did not provide obvious insights
 
-I tackled the the zip code issue by exploring other data sets and I came across the Socio Economics Issue Data set from the City of Chicago. ("Census Data - Selected socioeconomic indicators in Chicago, 2008 – 2012 | City of Chicago | Data Portal")
+I tackled the zip code issue by exploring other data sets and I came across the Socio Economics Issue Data set from the City of Chicago. ("Census Data - Selected socioeconomic indicators in Chicago, 2008 – 2012 | City of Chicago | Data Portal")
 
 This data set provided a column called Hardship Index, which collects socioeconomic indicators of the residents of Chicago.
 
