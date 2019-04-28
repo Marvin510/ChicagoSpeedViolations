@@ -1,14 +1,12 @@
 # Marvin Miranda Olmedo
 # Chicago Speed Violations - Individual Project
-### 3 Aspect:  interesting, non-trivial, and somewhat unexpected 
 
-
-
-### The making process of visualization# 1
+## The making process of visualization# 1
 
 While doing the data exploration assignment, I questioned the skewness of some cameras. For example, Camera ID 149 had by far the most violations. I found it interesting and thought it deserved a deeper analysis and understanding. 
-(Pic-1)
+
 ![Pic1](https://github.com/Marvin510/ChicagoSpeedViolations/blob/master/Images/Pic1.png "Skewdata")
+
 
 I ambition an image that would be eye opening to what I thought could be a mysterious issue.
 
@@ -36,7 +34,16 @@ Finally decided to bin the Hardship Index in size bins of 10 and this is where I
 (FinalPic#1)
 ![FinalPic#1](https://github.com/Marvin510/ChicagoSpeedViolations/blob/master/Images/FinalPic%231.png "Visualization#1")
 
+
 A future enhancement to this visualization would be to graph hardship index by zip code and wards area to better understand where are the areas targeted and why.
+
+
+### The making process of visualization #2
+
+
+
+
+
 
 
 
