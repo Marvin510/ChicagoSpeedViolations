@@ -97,8 +97,27 @@ I thought this was a very intersting finding that does not imply or claim anythi
 
 # The making process of visualization #3
 
-### Difference of 
+In the data exploration process, I designed a visualization that showed Friday as the day with more violations. I received criticism and thus decided to build on that mistake. Perhaps, explore if it could lead to an intersting finding.
 
+Picture
+![Friday](https://github.com/Marvin510/ChicagoSpeedViolations/blob/master/Images/Pic5.png "Friday")
+
+From feedback received, I wanted to explore different ways to properly show this information.  I now decided to explore changes through out the years.
+
+Picture
+![Pic6](https://github.com/Marvin510/ChicagoSpeedViolations/blob/master/Images/Pic6.png "Years")
+
+I then added weekends and realized that on average Friday is not the day with more violations but the weeekends.
+
+Which is an intersting finding considering the fact that I had originally in the data exploration process claimed Friday had the highest amount.
+
+![FinalPic3](https://github.com/Marvin510/ChicagoSpeedViolations/blob/master/Images/FinalPic%233.png "Visualization#3")
+
+
+### Future enhancements
+- Would like to create a forecast
+- Would like to breakdown by wards
+- Would like to compare by zip code and Socio economic Factors
 
 
 ### Data Wrangling
