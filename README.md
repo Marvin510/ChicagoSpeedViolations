@@ -2,32 +2,39 @@
 # Chicago Speed Violations - Individual Project
 ### 3 Aspect:  interesting, non-trivial, and somewhat unexpected 
 
-### Picture 1
 
 
-### The making process
+### The making process of visualization# 1
 
-
-
-While doing the data exploration assignment, I questioned the skewness of some cameras. For example, Camera ID 149 (1) had by far the most violations. I found it interesting and thought it deserved a deeper analysis and understanding. 
+While doing the data exploration assignment, I questioned the skewness of some cameras. For example, Camera ID 149 had by far the most violations. I found it interesting and thought it deserved a deeper analysis and understanding. 
+(Pic-1)
+![Pic1](https://github.com/Marvin510/ChicagoSpeedViolations/blob/master/Images/Pic1.png "Skewdata")
 
 I ambition an image that would be eye opening to what I thought could be a mysterious issue.
 
-At first, I couldn’t visualize it but the more I thought about the amount of violations (2) and how some cameras had a higher amount made me wonder whether or not cameras were placed as the website claims around 1/8 of a mile from schools and parks. (citation1)
+At first, I couldn’t visualize it but the more I thought about the amount of violations and how some cameras had a higher amount made me wonder whether or not cameras were placed as the website claims around 1/8 of a mile from schools and parks. ("Children's Safety Zone Program & Automated Speed Enforcement")
 
 The original dataset presented the following limitations:
-•	Zip codes were wrong
-•	Community areas and wards didn’t have a meaning
+-	Zip codes were wrong
+- Community areas and wards didn’t have a meaning
 
-At first I tried to solve the zip code issue by exploring other data sets and I came across the socio economics issue Data set from the city of Chicago(citation2). This data set provided a column called Hardship Index, which collects socioeconomic indicators of the residents of Chicago.
+At first I tried to solve the zip code issue by exploring other data sets and I came across the socio economics issue Data set from the city of Chicago. ("Census Data - Selected socioeconomic indicators in Chicago, 2008 – 2012 | City of Chicago | Data Portal")
+
+This data set provided a column called Hardship Index, which collects socioeconomic indicators of the residents of Chicago.
 
 I then realize that I could start by discarding the over policing of poor communities.
 
-I plotted count of cameras to hardship index and first graph was not very obvious ( pic3)
+I plotted count of cameras to hardship index and first graph was not very obvious.
+(Pic-2)
+![Pic2](https://github.com/Marvin510/ChicagoSpeedViolations/blob/master/Images/Pic2.png "Countofcameras")
 
-I then created a calculated field that assign any Hardship index above 50 to Poor else Rich. (Pic4)
+I then created a calculated field that assigned any Hardship index above 50 to Poor else Rich. 
+(Pic-3)
+![Pic3](https://github.com/Marvin510/ChicagoSpeedViolations/blob/master/Images/Pic3.png "Calculatedfield")
 
 Finally decided to bin the Hardship Index in size bins of 10 and this is where I found a straight answer to my question. There are more cameras in poorer areas than in rich areas. Specifically if Hardship Index is above 70.
+(FinalPic#1)
+![FinalPic#1](https://github.com/Marvin510/ChicagoSpeedViolations/blob/master/Images/FinalPic%231.png "Visualization#1")
 
 A future enhancement to this visualization would be to graph hardship index by zip code and wards area to better understand where are the areas targeted and why.
 
@@ -82,7 +89,12 @@ I am exploring the city of Chicago data and I am realizing that perhaps I should
 
 
 
-#Citations
+#References
+
+- Children's Safety Zone Program & Automated Speed Enforcement. (n.d.). Retrieved April 27, 2019, from https://www.chicago.gov/city/en/depts/cdot/supp_info/children_s_safetyzoneporgramautomaticspeedenforcement.html
+
+- Census Data - Selected socioeconomic indicators in Chicago, 2008 – 2012 | City of Chicago | Data Portal. (n.d.). Retrieved April 27, 2019, from https://data.cityofchicago.org/Health-Human-Services/Census-Data-Selected-socioeconomic-indicators-in-C/kn9c-c2s2
+
 
 https://data.cityofchicago.org/Facilities-Geographic-Boundaries/Ward-Offices/htai-wnw4
 https://data.cityofchicago.org/Health-Human-Services/Census-Data-Selected-socioeconomic-indicators-in-C/kn9c-c2s2
