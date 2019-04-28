@@ -126,7 +126,7 @@ Thi is an intersting finding considering the fact that I had originally in the d
 - Would like to compare by zip code and Socio economic Factors
 
 
-### Data Wrangling
+# Data Wrangling
 
 
 - I had to retrieve information from multiple sources.
@@ -135,22 +135,25 @@ Thi is an intersting finding considering the fact that I had originally in the d
 
 - Mapped and joined the tables. 
 
+![joinss](https://github.com/Marvin510/ChicagoSpeedViolations/blob/master/Images/Jointss.png "joinss")
+
+
 - I had to physically draw the attributes I needed to analyze if joining the different data sets was feasible.
 
 ![joins](https://github.com/Marvin510/ChicagoSpeedViolations/blob/master/Images/Joins.png "joins")
 
 - Created bins for Harship Index
+
 ![bins](https://github.com/Marvin510/ChicagoSpeedViolations/blob/master/Images/bins.png "bins")
 
 - Created IF statements to categorize rich or poor in the column called Harship Index.
+
 ![if](https://github.com/Marvin510/ChicagoSpeedViolations/blob/master/Images/Calculated%20field.png "ifstatements")
 
 - Split columns to find Longitude and Latitude of Wards.
 
-###
 
-
-#References
+# References
 
 - Children's Safety Zone Program & Automated Speed Enforcement. (n.d.). Retrieved April 27, 2019, from https://www.chicago.gov/city/en/depts/cdot/supp_info/children_s_safetyzoneporgramautomaticspeedenforcement.html
 
