@@ -30,7 +30,7 @@ This Index assigns areas with more poverty a higher ranking and vice versa.
 
 I suspected at this point that location of cameras could be driven by economic issues and thus decided to explore differences betweent impoverish and rich areas.
 
-Visualization number one would attempt to find if there are more cameras in lower income zip codes across Chicago and thus skewed the results of violations.
+Visualization number 1 would attempt to find if there are more cameras in lower income zip codes across Chicago resulting in skewed violation data.
 
 I plotted a count of cameras to hardship index. The first graph did not show obvious bias.
 
