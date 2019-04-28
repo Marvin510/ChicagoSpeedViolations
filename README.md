@@ -54,7 +54,7 @@ Finally, I decided to bin the Hardship Index in size bins of 10 and this is wher
 There are more cameras in poorer areas than in rich areas. Specifically if Hardship Index is above 70 and this is the message that I would covey.
 
 
-![FinalPic#1](https://github.com/Marvin510/ChicagoSpeedViolations/blob/master/Images/FinalPic%231.png "Visualization#1")
+![FinalPic#1](https://github.com/Marvin510/ChicagoSpeedViolations/blob/master/Images/FinalPict%231.png "Visualization#1")
 
 ### Future enhancements
 
