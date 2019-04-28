@@ -16,7 +16,7 @@ For example, Camera ID 149 had by far the most violations. I found it interestin
 
 At first, I couldn’t make any assertions about why some areas and cameras had disproportionately higer amount of violations. However, I felt the City of Chicago website did not provide enough information to justify their claim that cameras were installed around 1/8 of a mile from schools and parks. ("Children's Safety Zone Program & Automated Speed Enforcement")
 
-Because of this, I suspected the skewness was due to the location of the cameras. This would I believed lead me to an interesting finding.
+Because of this, I suspected the skewness was due to the location of the cameras and believed this would lead me to an interesting finding.
 
 I started by investigating zip codes and realized that the original dataset presented the following limitations:
 -	Zip codes were wrong
