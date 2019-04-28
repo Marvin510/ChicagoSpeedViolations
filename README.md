@@ -14,9 +14,9 @@ For example, Camera ID 149 had by far the most violations. I found this stood ou
 ![Pic1](https://github.com/Marvin510/ChicagoSpeedViolations/blob/master/Images/Pic1.png "Skewdata")
 
 
-At first, I couldn’t make any assertions about why some areas and cameras had a disproportionately higher amount of violations. However, I felt the City of Chicago website did not provide enough information to justify their claim that cameras were installed around 1/8 of a mile from schools and parks. ("Children's Safety Zone Program & Automated Speed Enforcement")
+At first, I couldn’t make any assertions about why some areas and cameras had a disproportionately higher amount of violations. Furthermore, I felt the City of Chicago website did not provide enough information to justify their claim that cameras were installed around 1/8 of a mile from schools and parks. ("Children's Safety Zone Program & Automated Speed Enforcement")
 
-Because of this, I suspected the skewness was due to the location of the cameras and believed this would lead me to an interesting finding.
+Because of this, I suspected there was a bias with the location of the cameras and believed this would lead me to an interesting finding.
 
 I started by investigating zip codes and realized that the original dataset presented the following limitations:
 -	Zip codes were wrong
@@ -28,15 +28,15 @@ This data set provided a column called Hardship Index, which collects socioecono
 
 This Index assigns areas with more poverty a higher ranking and vice versa.
 
-I suspected at this point that location of cameras could be driven by economic issues and thus decided to explore differences betweent impoverish and rich areas.
+I suspected at this point that location of cameras could be driven by economic issues and thus decided to explore differences between impoverished and rich areas.
 
-Visualization number 1 would attempt to find if there are more cameras in lower income zip codes across Chicago resulting in skewed violation data.
+Visualization number 1 would attempt to find if there are more cameras in lower income zip codes across Chicago resulting in biased violation data.
 
 I plotted a count of cameras to hardship index. The first graph did not show obvious bias.
 
 ![Pic2](https://github.com/Marvin510/ChicagoSpeedViolations/blob/master/Images/Pic2.png "Countofcameras")
 
-I also tried to graph a linear graph to see if there was an increment of cameras as Hardship increased. In this image, there was improvement yet there was alot of missing values.
+I also tried to graph a linear graph to see if there was an increment of cameras as Hardship increased. In this image, there was improvement yet there was a lot of missing values.
 
 ![Pic2.2](https://github.com/Marvin510/ChicagoSpeedViolations/blob/master/Images/Pic2.2.png "Lines")
 
@@ -44,7 +44,7 @@ I then created a calculated field that assigned any Hardship index above 50 to P
 
 This image did show that there are more cameras in poorer areas, but I didn't think it was convincing enough.
 
-I also took a detour in my thinking. Up to this point, I wanted to proof with my visualization to the Mayor of Chicago that I had found evidence that impoverish areas are more police. I decided that is not the message I would try to convey with my visualization.
+I also took a detour in my thinking. Up to this point, I wanted to prove with my visualization to the Mayor of Chicago that I had found evidence that impoverished areas are more policed. I decided that is not the message I would try to convey with my visualization.
 
 ![Pic3](https://github.com/Marvin510/ChicagoSpeedViolations/blob/master/Images/Pic3.png "Calculatedfield")
 
@@ -65,7 +65,7 @@ There are more cameras in poorer areas than in rich areas. Specifically if Hards
 
 # The making process of visualization #2
 
-## The city of Chicago is divided into 50 wards, each with 1 representative. Out of the 50 there is one not controlled by democrats or Republicans and it is the one with the highest violations. 
+## The city of Chicago is divided into 50 wards. Each Ward has 1 representative. There is 1 Ward controlled by an Independent.
 ## The Ward with the only Independent Representative has the highest amount of Violations.
 
 While researching the zip code issue from the original data set I came to realize that I did not understand the meaning of the Wards. 
