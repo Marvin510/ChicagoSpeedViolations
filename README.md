@@ -1,7 +1,8 @@
-# Marvin Miranda Olmedo
-# Chicago Speed Violations - Individual Project
+# Marvin Miranda Olmedo - Chicago Speed Violations 
 
 ## The making process of visualization# 1
+
+- There are more cameras in poorer areas than in rich areas. Specifically if Hardship Index is above 70.
 
 While doing the data exploration assignment, I questioned the skewness of some cameras. For example, Camera ID 149 had by far the most violations. I found it interesting and thought it deserved a deeper analysis and understanding. 
 
@@ -22,16 +23,19 @@ This data set provided a column called Hardship Index, which collects socioecono
 
 I then realize that I could start by discarding the over policing of poor communities.
 
-I plotted count of cameras to hardship index and first graph was not very obvious.
-(Pic-2)
+I plotted count of cameras to hardship index and the first graph didnot show obvious bias.
+
 ![Pic2](https://github.com/Marvin510/ChicagoSpeedViolations/blob/master/Images/Pic2.png "Countofcameras")
 
-I then created a calculated field that assigned any Hardship index above 50 to Poor else Rich. 
-(Pic-3)
+I then created a calculated field that assigned any Hardship index above 50 to Poor else Rich, with the intention to find a correlation. This immage did showed that there are more cameras in poorer areas but I didn't think it was convincing enough.
+
 ![Pic3](https://github.com/Marvin510/ChicagoSpeedViolations/blob/master/Images/Pic3.png "Calculatedfield")
 
-Finally decided to bin the Hardship Index in size bins of 10 and this is where I found a straight answer to my question. There are more cameras in poorer areas than in rich areas. Specifically if Hardship Index is above 70.
-(FinalPic#1)
+Finally, I decided to bin the Hardship Index in size bins of 10 and this is where I found a straight answer to my question.
+
+There are more cameras in poorer areas than in rich areas. Specifically if Hardship Index is above 70.
+
+
 ![FinalPic#1](https://github.com/Marvin510/ChicagoSpeedViolations/blob/master/Images/FinalPic%231.png "Visualization#1")
 
 
