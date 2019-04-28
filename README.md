@@ -43,13 +43,25 @@ There are more cameras in poorer areas than in rich areas. Specifically if Hards
 ![FinalPic#1](https://github.com/Marvin510/ChicagoSpeedViolations/blob/master/Images/FinalPic%231.png "Visualization#1")
 
 
-A future enhancement to this visualization would be to graph hardship index by zip code and wards area to better understand where are the areas targeted and why.
+A future enhancement to this visualization would be to optain school locations to prove or disprove that cameras have been installed 1/8 of mile from schools as the City of Chicago Claims.
+
+
 
 
 ### The making process of visualization #2
 
+While researching the zip code issue from the original data set I came to realize that I did not understant the meaning of the wards. 
+
+I turned to Wikipedia and found data on wards and how each has a political representative.("Chicago City Council", 2019)
+
+Quickly realize that the City of Chicago has a democratic majority and thought it would be interesting to see if Wards ran by other parties differed from democrats.
+
+At first, I plotted zip codes which  required me to download another Data set called Ward Offices. ("Ward Offices | City of Chicago | Data Portal")
+
+I had to split location to create Longitude and Latitudes. I then created a map of violations by zip code and party. From this image, I could't make any statements about violations and parties.
 
 
+![Pic4](https://github.com/Marvin510/ChicagoSpeedViolations/blob/master/Images/Pic4.png "zip code")
 
 
 
@@ -111,7 +123,7 @@ I am exploring the city of Chicago data and I am realizing that perhaps I should
 
 - Census Data - Selected socioeconomic indicators in Chicago, 2008 – 2012 | City of Chicago | Data Portal. (n.d.). Retrieved April 27, 2019, from https://data.cityofchicago.org/Health-Human-Services/Census-Data-Selected-socioeconomic-indicators-in-C/kn9c-c2s2
 
+- Chicago City Council. (2019, April 26). Retrieved April 27, 2019, from https://en.wikipedia.org/wiki/Chicago_City_Council
 
-https://data.cityofchicago.org/Facilities-Geographic-Boundaries/Ward-Offices/htai-wnw4
-https://data.cityofchicago.org/Health-Human-Services/Census-Data-Selected-socioeconomic-indicators-in-C/kn9c-c2s2
-https://en.wikipedia.org/wiki/Chicago_City_Council
+- Ward Offices | City of Chicago | Data Portal. (n.d.). Retrieved April 27, 2019, from https://data.cityofchicago.org/Facilities-Geographic-Boundaries/Ward-Offices/htai-wnw4
+
