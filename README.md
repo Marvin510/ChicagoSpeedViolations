@@ -64,7 +64,11 @@ I had to split location to create Longitude and Latitudes. I then created a map 
 ![Pic4](https://github.com/Marvin510/ChicagoSpeedViolations/blob/master/Images/Pic4.png "zip code")
 
 
+I then proceeded to think of Wards rather than zip codes and created a visualization that showed violations by Wards. Here is where, I found my intersting finding. There is only 2 Wards not controlled by Democrats, one of them is an Independent and the other is a Republican. The Ward with the highest amount of vioalations is represented an Independent.
 
+I thought this was a very intersting finding that does not imply or claim anything but is something I was not expecting.
+
+![FinalPic2](https://github.com/Marvin510/ChicagoSpeedViolations/blob/master/Images/FinalPic%232.png "Visualization#2")
 
 
 
