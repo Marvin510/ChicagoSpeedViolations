@@ -23,9 +23,13 @@ This data set provided a column called Hardship Index, which collects socioecono
 
 I then realize that I could start by discarding the over policing of poor communities.
 
-I plotted count of cameras to hardship index and the first graph didnot show obvious bias.
+I plotted count of cameras to hardship index and the first graph did not show obvious bias.
 
 ![Pic2](https://github.com/Marvin510/ChicagoSpeedViolations/blob/master/Images/Pic2.png "Countofcameras")
+
+I also tried to graph a linear graph to see if there was an increment of cameras as Harship increased. In this image, there was improvement yet there was alot of missing values that I couldn't present.
+
+![Pic2.2](https://github.com/Marvin510/ChicagoSpeedViolations/blob/master/Images/Pic2.2.png "Lines")
 
 I then created a calculated field that assigned any Hardship index above 50 to Poor else Rich, with the intention to find a correlation. This immage did showed that there are more cameras in poorer areas but I didn't think it was convincing enough.
 
@@ -43,6 +47,7 @@ A future enhancement to this visualization would be to graph hardship index by z
 
 
 ### The making process of visualization #2
+
 
 
 
