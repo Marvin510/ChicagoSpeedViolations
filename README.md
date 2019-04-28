@@ -57,7 +57,7 @@ There are more cameras in poorer areas than in rich areas. Specifically if Hards
 - Explore population differences among indexes.
 
 
-### The making process of visualization #2
+# The making process of visualization #2
 
 ## The city of Chicago is divided into 50 wards, each with 1 representative. Out of the 50 there is one not controlled by democrats or Republicans and it is the one with the highest violations. The Ward with the only Independent Representative has the highest amount of Violations.
 
@@ -81,7 +81,9 @@ From this image, I couldn’t  make any clear statements about violations and pa
 
 I then proceeded to think of Wards rather than zip codes and created a visualization that showed violations by Wards.
 
-Here is where I found my interesting  finding; there are only 2 Wards not controlled by Democrats, one of them is an Independent and the other is a Republican. The Ward with the highest amount of violations  is represented by an Independent.
+Here is where I found my interesting  finding; there are only 2 Wards not controlled by Democrats, one of them is an Independent and the other is a Republican. 
+
+The Ward with the highest amount of violations  is represented by an Independent.
 
 I thought this was a very intersting finding that does not imply or claim anything but is something I was not expecting.
 
@@ -98,10 +100,14 @@ I thought this was a very intersting finding that does not imply or claim anythi
 
 
 
-### The making process summary
+### Data Wrangling
 
 
-- I had to retrieve information from multiple sources, combined all into a spreadsheet and then I had a hard time mapping and joining the tables. 
+- I had to retrieve information from multiple sources.
+
+- Combined all Data Sets into a spreadsheet.
+
+- Mapped and joined the tables. 
 
 - I had to physically draw the attributes I needed to analyze if joining the different data sets was feasible.
 
@@ -109,9 +115,9 @@ I thought this was a very intersting finding that does not imply or claim anythi
 
 - Created bins for Harship Index
 
-- I also had to create calculated fields such as bins 
-
 - Created IF statements to categorize rich or poor in the column called Harship Index.
+
+- Split columns to find Longitude and Latitude of Wards.
 
 ###
 
