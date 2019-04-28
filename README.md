@@ -140,8 +140,10 @@ Thi is an intersting finding considering the fact that I had originally in the d
 ![joins](https://github.com/Marvin510/ChicagoSpeedViolations/blob/master/Images/Joins.png "joins")
 
 - Created bins for Harship Index
+![bins](https://github.com/Marvin510/ChicagoSpeedViolations/blob/master/Images/bins.png "bins")
 
 - Created IF statements to categorize rich or poor in the column called Harship Index.
+![if](https://github.com/Marvin510/ChicagoSpeedViolations/blob/master/Images/Calculated%20field.png "ifstatements")
 
 - Split columns to find Longitude and Latitude of Wards.
 
