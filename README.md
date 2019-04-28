@@ -115,7 +115,7 @@ Picture
 
 After analyzing weekdays and years, I decided to add weekends and realized that on average Friday is not the day with more violations.
 
-Thi is an intersting finding considering the fact that I had originally in the data exploration process claimed Friday had the highest amount.
+This is an intersting finding considering the fact that I had originally in the data exploration process claimed Friday had the highest amount.
 
 ![FinalPic3](https://github.com/Marvin510/ChicagoSpeedViolations/blob/master/Images/FinalPic%233.png "Visualization#3")
 
