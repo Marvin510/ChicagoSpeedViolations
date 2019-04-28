@@ -43,13 +43,14 @@ I also tried to graph a linear graph to see if there was an increment of cameras
 I then created a calculated field that assigned any Hardship index above 50 to Poor else Rich, with the intention to find a correlation.
 
 This image did show that there are more cameras in poorer areas, but I didn't think it was convincing enough.
+I also took a detour in my thinking. Up to this point, I wanted to proof with my visualization to the Mayor of Chicago that I had found evidence that empoverish areas are more police. I decided that that is not the message I would try to convey.
 
 ![Pic3](https://github.com/Marvin510/ChicagoSpeedViolations/blob/master/Images/Pic3.png "Calculatedfield")
 
 Finally, I decided to bin the Hardship Index in size bins of 10 and this is where I found a straight answer to my question.
 
 
-There are more cameras in poorer areas than in rich areas. Specifically if Hardship Index is above 70.
+There are more cameras in poorer areas than in rich areas. Specifically if Hardship Index is above 70 and this is the message that I would covey.
 
 
 ![FinalPic#1](https://github.com/Marvin510/ChicagoSpeedViolations/blob/master/Images/FinalPic%231.png "Visualization#1")
