@@ -2,19 +2,19 @@
 
 https://public.tableau.com/profile/marvin.olmedo#!/vizhome/4_28_19/Dashboard1
 
-# The making process of visualization# 1
+# The making process of visualization #1
 
-## There are more cameras in impoverish areas. Specifically, if Hardship Index is above 70.
+## There are more cameras in impoverished areas.
 
 
-While doing the data exploration assignment, I questioned the skewness of some cameras.
+While doing the data exploration assignment, I questioned the bias of some cameras locations.
 
-For example, Camera ID 149 had by far the most violations. I found it interesting and thought it deserved a deeper analysis and understanding. 
+For example, Camera ID 149 had by far the most violations. I found this stood out and deserved a deeper analysis. 
 
 ![Pic1](https://github.com/Marvin510/ChicagoSpeedViolations/blob/master/Images/Pic1.png "Skewdata")
 
 
-At first, I couldn’t make any assertions about why some areas and cameras had disproportionately higer amount of violations. However, I felt the City of Chicago website did not provide enough information to justify their claim that cameras were installed around 1/8 of a mile from schools and parks. ("Children's Safety Zone Program & Automated Speed Enforcement")
+At first, I couldn’t make any assertions about why some areas and cameras had a disproportionately higher amount of violations. However, I felt the City of Chicago website did not provide enough information to justify their claim that cameras were installed around 1/8 of a mile from schools and parks. ("Children's Safety Zone Program & Automated Speed Enforcement")
 
 Because of this, I suspected the skewness was due to the location of the cameras and believed this would lead me to an interesting finding.
 
