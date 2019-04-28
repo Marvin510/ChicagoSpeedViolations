@@ -106,12 +106,10 @@ I thought this was a very intersting finding that does not imply or claim anythi
 
 In the data exploration process, I designed a visualization that showed Friday as the day with more violations. I received criticism and thus decided to build on that mistake. Perhaps, explore if this visualization could lead to an interesting finding.
 
-Picture
 ![Friday](https://github.com/Marvin510/ChicagoSpeedViolations/blob/master/Images/Pic5.png "Friday")
 
 From feedback received, I wanted to explore different ways to properly show this information.  I decided to explore changes through out the years instead of day. 
 
-Picture
 ![Pic6](https://github.com/Marvin510/ChicagoSpeedViolations/blob/master/Images/Pic6.png "Years")
 
 After analyzing weekdays and years, I decided to add weekends and realized that on average Friday is not the day with more violations.
